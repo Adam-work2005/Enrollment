@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - GCT "GO ONLINE"</title>
+    <link rel="shortcut icon" type="x-icon" href="Image/GCT-Logo3.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #001F3F; /* Dark Blue */
+            color: white;
+        }
+
+        .header {
+            background-color: #001F3F; /* Dark Blue */
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header img {
+            height: 50px;
+        }
+
+        .nav-l {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-l ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-l li {
+            margin: 0 15px;
+        }
+
+        .nav-l a {
+            text-decoration: none;
+            color: gold; /* Gold for links */
+            font-weight: 500;
+        }
+
+        .nav-l a:hover {
+            text-decoration: underline;
+        }
+
+        .about {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: rgba(255, 215, 0, 0.1); /* Light golden background */
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1, h2 {
+            color: gold; /* Gold for headings */
+        }
+
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        footer {
+            background-color: #001F3F; /* Dark Blue */
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .icon i {
+            margin: 0 10px;
+            color: gold; /* Gold for icons */
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="HP.html"><img src="Image/GCT-Logo3.png" alt="GCT Logo"></a>
+            <div class="nav-l" id="navid">
+              
+                <ul>
+                  
+                    <li><a href="enrollment_form.html">ONLINE ENROLLMENT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="signup.html">LOGOUT</a></li>
+                </ul>
+            </div>
+           
+        </nav>
+    </section>
+
+    <section class="about">
+        <h1>About Garcia College of Technology</h1>
+        <p>Established in 2025, Garcia College of Technology (GCT) is dedicated to promoting academic excellence and providing a transformative educational experience. Our mission is to equip students with the skills and knowledge necessary to thrive in the 21st century. 
+        </p>
+        
+        <h2>Our Mission</h2>
+        <p>To provide affordable and accessible quality education that nurtures innovation, creativity, and critical thinking, empowering our students to become leaders in their respective fields.</p>
+        
+        <h2>Our Vision</h2>
+        <p>To be a premier educational institution recognized for excellence in teaching and learning, fostering a diverse and inclusive community that contributes positively to society.</p>
+
+        <h2>Core Values</h2>
+        <ul>
+            <li><strong>Integrity:</strong> We uphold the highest standards of ethics and accountability in all our endeavors.</li>
+            <li><strong>Innovation:</strong> We encourage creativity and embrace new ideas to enhance the learning experience.</li>
+            <li><strong>Inclusivity:</strong> We value diversity and promote an environment where everyone feels valued and respected.</li>
+            <li><strong>Excellence:</strong> We strive for the highest quality in education and support services, continuously seeking improvement.</li>
+        </ul>
+
+        <h2>Our Commitment</h2>
+        <p>At GCT, we are committed to student success and engagement. Our experienced faculty provides personalized attention, and hands-on learning opportunities equip students with the practical skills needed to excel in their fields. We believe in nurturing not only academic achievement but also character development, preparing our students for successful careers and responsible citizenship.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you would like to learn more about our programs, facilities, or enrollment process, please visit our <a href="contact_us.html">Contact Us</a> page.</p>
+    </section>
+
+    <footer class="footer">
+        <h4>Connect with Us</h4>
+        <div class="icon">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+        </div>
+        <p>Made by STUF TEAM BSIT 2-S-1</p>
+    </footer>
+
+    <!------- JavaScript for Menu-------->
+    <script>
+        var navid = document.getElementById("navid");
+        function smenu() {
+            navid.style.right = "0";           
+        }
+        function hmenu() {
+            navid.style.right = "-200px";           
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - GCT "GO ONLINE"</title>
+    <link rel="shortcut icon" type="x-icon" href="Image/GCT-Logo3.png">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+           
+            <div class="nav-l" id="navid">
+               
+                <ul>
+                    <li><a href="HP.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="enrollment_form.html">ONLINE ENROLLMENT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="signup.html">LOGOUT</a></li>
+                </ul>
+            </div>
+         
+        </nav>
+    </section>
+
+    <div class="courses">
+        <h1>Our Courses</h1>
+        <p>At Garcia College of Technology, we offer a variety of programs designed to prepare you for success in your chosen field. Explore our courses below to find the right fit for your academic and career goals.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>BSCE</h3>
+                <p>Bachelor of Science in Civil Engineering</p>
+                <p>This program focuses on the design, construction, and maintenance of infrastructure such as bridges, roads, and buildings.</p>
+            </div>
+            <div class="course-col">
+                <h3>BSEE</h3>
+                <p>Bachelor of Science in Electrical Engineering</p>
+                <p>This course covers the fundamentals of electrical circuits, systems, and electronic devices, preparing you for a career in various sectors like power generation, telecommunications, and more.</p>
+            </div>
+            <div class="course-col">
+                <h3>BSME</h3>
+                <p>Bachelor of Science in Mechanical Engineering</p>
+                <p>Students will learn about mechanics, thermodynamics, and materials science to design and manufacture mechanical systems and devices.</p>
+            </div>
+            <div class="course-col">
+                <h3>BSIT</h3>
+                <p>Bachelor of Science in Information Technology</p>
+                <p>This program prepares students for IT careers, covering topics like programming, database management, and network administration.</p>
+            </div>
+            <div class="course-col">
+                <h3>BSCE</h3>
+                <p>Bachelor of Science in Computer Engineering</p>
+                <p>Focus on the integration of hardware and software in computing systems, enabling students to develop innovative tech solutions.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="call">
+        <h1>Ready to Enroll?</h1>
+        <a href="enrollment_form.html" class="hero-btn">Enroll Now</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to Garcia College of Technology! At Garcia College of Technology, we are committed to fostering academic excellence and preparing our students for successful careers in today's dynamic world. Established in 2025, our institution has a rich history of providing quality education and innovative
+
+    
+    <style>
+        body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/4c62eff13ff634d9f530546071fc200b.png'); /* Background Image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    color: white; /* Default text color for better readability */
+}
+ .header {
+    background: #001f4d; /* Dark Blue */
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column; /* Change to column to center items */
+    align-items: center; /* Center items horizontally */
+}
+
+.nav-l {
+    display: flex;
+    justify-content: center; /* Center the list horizontally */
+    align-items: center; /* Align items vertically in the middle */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.nav-l ul {
+    list-style-type: none; /* Remove bullets from the list */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    display: flex; /* Display items in a row */
+    flex-wrap: wrap; /* Support wrapping on smaller screens */
+}
+
+.nav-l li {
+    margin: 0 10px; /* Space between items */
+}
+
+nav a {
+    color: gold; /* Gold Yellow */
+    text-decoration: none;
+    padding: 10px 15px; /* Added padding for better clickability */
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: white; /* Change to white on hover */
+}
+
+@media (max-width: 768px) {
+    .nav-l ul {
+        display: none; /* Hide the menu on smaller screens */
+        flex-direction: column; /* Stacking items vertically */
+        width: 100%; /* Full width */
+    }
+
+    .nav-l.active ul {
+        display: flex; /* Show menu on active */
+    }
+
+    .nav-l i {
+        display: block; /* Show the menu icon */
+        margin-left: 10px;
+        font-size: 24px; /* Increase icon size */
+    }
+}
+        .courses {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .courses h1 {
+            margin-bottom: 10px;
+            font-size: 36px;
+            color: gold; /* Gold Yellow */
+        }
+        .courses p{
+            color: white;
+        }
+
+        .courses p {
+            margin-bottom: 30px;
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .course-col {
+            background: #003366; /* Slightly lighter Dark Blue */
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px;
+            width: calc(30% - 30px);
+            box-shadow: 0 2px 10px rgb(252, 251, 251);
+            transition: transform 0.3s;
+        }
+
+        .course-col h3 {
+            color: gold; /* Gold Yellow */
+        }
+
+        .course-col p {
+            color: white;
+        }
+
+        .call {
+            padding: 40px 20px;
+            background: #001f4d;
+            text-align: center;
+        }
+
+        .call h1 {
+            color: gold; /* Gold Yellow */
+        }
+
+        .hero-btn {
+            background: gold; /* Gold Yellow */
+            color: #001f4d; /* Dark Blue */
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .hero-btn:hover {
+            background: #ffcc00; /* Lighter Gold Yellow */
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #003366; /* Slightly lighter Dark Blue */
+            color: white;
+        }
+
+        .footer h4 {
+            margin: 20px 0 10px;
+            color: gold; /* Gold Yellow */
+        }
+        .footer p{
+            color: white;
+        }
+
+        .icon {
+            margin: 10px 0;
+        }
+
+        .icon i {
+            margin: 0 10px;
+            color: gold; /* Gold Yellow */
+        }
+
+        @media (max-width: 768px) {
+            .course-col {
+                width: calc(45% - 30px);
+            }
+        }
+
+        @media (max-width: 500px) {
+            .course-col {
+                width: calc(100% - 30)}}
