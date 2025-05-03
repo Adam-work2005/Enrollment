@@ -1,0 +1,67 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: url('image/15.jpg') center/cover no-repeat, linear-gradient(135deg, #FFD700, #007bff); 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    backdrop-filter: blur(5px); /* Softens background */
+}
+
+/* Form Container */
+form {
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    animation: slideUp 0.5s ease-in-out;
+}
+
+/* Input Fields */
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 2px solid #007bff; /* Blue Border */
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Input Focus Effect */
+input:focus {
+    border-color: #FFD700; /* Yellow Focus */
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* Submit Button */
+button {
+    background: #007bff; /* Blue */
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #FFD700; /* Yellow */
+    color: #0056b3; /* Dark Blue */
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
